@@ -26,7 +26,7 @@ public class MouseListener {
         return MouseListener.instance;
     }
 
-    public static void mousePoseCallback(long window, double xPos, double yPos){
+    public static void mousePosCallback(long window, double xPos, double yPos){
         get().lastX = get().xPos;
         get().lastY = get().yPos;
         get().xPos = xPos;

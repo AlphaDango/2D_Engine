@@ -23,5 +23,4 @@ public class Transform {
         this.position = position;
         this.scale = scale;
     }
-
 }
